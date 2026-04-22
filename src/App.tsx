@@ -9,7 +9,7 @@ export default function App() {
                         <Route path="/" element={<UserDashboardSimple />} />
                         <Route path="/settings" element={<SettingsPage />} />
                         <Route path="*" element={<Navigate to="/" replace />} />
-                </Routes>Routes>
-          </Router>Router>
+                </Routes>
+          </Router>
         )
-}</Router>
+}
